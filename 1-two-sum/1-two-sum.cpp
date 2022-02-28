@@ -1,4 +1,5 @@
 class Solution {
+    //teaches the use of hashmap
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> diff;
