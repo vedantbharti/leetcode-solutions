@@ -3,9 +3,6 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> diff;
-        for(int i=0;i<nums.size();i++){
-            diff[nums[i]] = i;
-        }
         
         vector<int> ans;
         for(int i=0;i<nums.size();i++){
@@ -14,6 +11,8 @@ public:
                 ans.push_back(diff[target-nums[i]]);
                 break;
             }
+            
+            diff[nums[i]] = i;
         }
         
         return ans;
