@@ -1,6 +1,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+        //sliding window kind of problem with hashing
         int start = 0, end = 0;
         int len = 0;
         unordered_map<char,int> umap;
