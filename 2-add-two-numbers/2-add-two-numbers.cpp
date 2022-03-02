@@ -9,6 +9,7 @@
  * };
  */
 class Solution {
+    //see how you can add these numbers without reversing the linkedlist
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         if(l1==NULL) return l2;
