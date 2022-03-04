@@ -1,4 +1,13 @@
 class Solution {
+    //classic dp problem, asked frequently
+    //every single character will be palindrome of itself
+    //create a 2D array and set its diagonal to true
+    //now check if 2 consecutive characters are palindrome
+    //if yes, make dp[i][i+1] = true
+    //now taking these two characters as center, if we move left from one end and right from
+    //other, and the characters match, the string will also be a palindrome
+    //set dp[i][j] to be true if s[i]==s[j] and dp[i+1][j-1] is true;
+    //start from length of substring to 3 and increase the length to n
 public:
     string longestPalindrome(string s) {
         int n = s.size();
