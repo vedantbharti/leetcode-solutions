@@ -4,3 +4,4 @@ Feel free to go through my solutions if needed, and suggest any better way to so
 Questions to definitely check:
 1. Pascal's triangle
 2. Median of 2 sorted arrays
+3. Longest palindromic substring
