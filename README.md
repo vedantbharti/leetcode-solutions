@@ -6,3 +6,4 @@ Questions to definitely check:
 2. Median of 2 sorted arrays
 3. Longest palindromic substring
 4. Squares of a sorted array
+5. First bad version
