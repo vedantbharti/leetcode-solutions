@@ -5,3 +5,4 @@ Questions to definitely check:
 1. Pascal's triangle
 2. Median of 2 sorted arrays
 3. Longest palindromic substring
+4. Squares of a sorted array
