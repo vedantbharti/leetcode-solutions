@@ -1,15 +1,6 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        // int start = 0, end = 0;
-        // int temp = 0;
-        // for(int i=0;i<s.size();i++){
-        //     if(s[i]!=" "){
-        //         end++;
-        //     } else {
-        //         whil
-        //     }
-        // }
         
         unordered_map<int,int> umap;
         int start = 0, end = 0;
@@ -35,10 +26,6 @@ public:
             
             
         }
-        // while(start<end){
-        //         swap(s[start],s[end]);
-        //         start++, end--;
-        //     }
         
         return s;
         
