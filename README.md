@@ -8,4 +8,5 @@ Questions to definitely check:
 4. Squares of a sorted array
 5. First bad version
 6. Best time to buy and sell stocks
-7. Maximum sum subarray
+7. Maximum subarray
+8. House robber
