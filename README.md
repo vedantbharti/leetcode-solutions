@@ -7,3 +7,4 @@ Questions to definitely check:
 3. Longest palindromic substring
 4. Squares of a sorted array
 5. First bad version
+6. Best time to buy and sell stocks
