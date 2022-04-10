@@ -1,5 +1,7 @@
 class Solution {
 public:
+    
+    //similar to buy and sell stocks with a bit of tweak
     int maxSubArray(vector<int>& nums) {
         int n = nums.size();
         vector<int> sum(n,0);
