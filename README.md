@@ -12,3 +12,4 @@ Questions to definitely check:
 8. House robber
 9. Longest substring without repeatition
 10. Permutation in string
+11. Max area of island
