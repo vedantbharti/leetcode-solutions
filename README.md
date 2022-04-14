@@ -13,3 +13,4 @@ Questions to definitely check:
 9. Longest substring without repeatition
 10. Permutation in string
 11. Max area of island
+12. merge two binary trees
