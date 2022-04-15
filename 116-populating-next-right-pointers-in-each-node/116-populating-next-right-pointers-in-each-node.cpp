@@ -19,24 +19,19 @@ public:
 class Solution {
     
 void connectUtil(Node* root){
-    if(root==NULL) return;
-    if(root->left==NULL && root->right==NULL){
-        return;
-    }
     
-    root->left->next = root->right;
-    if(root->next) root->right->next = root->next->left;
-    else root->right->next = NULL;
-    connectUtil(root->left);
-    connectUtil(root->right);
 }    
 
 public:
     Node* connect(Node* root) {
-        if(root==NULL) return root;
-        root->next = NULL;
-        Node* parent = NULL;
-        connectUtil(root);
+        if(root==NULL || (root->left==NULL && root->right==NULL)) return root;
+
+        root->left->next = root->right;
+        root->right->next = root->next ? root->next->left : NULL;
+        connectUtil(root->left);
+        connectUtil(root->right);
+        connect(root->left);
+        connect(root->right);
         return root;
         
     }
