@@ -20,3 +20,4 @@ Questions to definitely check:
 16. Rotting oranges
 17. combinations
 18. permutations
+19. Letter case permutation
