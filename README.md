@@ -21,3 +21,4 @@ Questions to definitely check:
 17. combinations
 18. permutations
 19. Letter case permutation
+20. reverse bits
