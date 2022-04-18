@@ -22,3 +22,4 @@ Questions to definitely check:
 18. permutations
 19. Letter case permutation
 20. reverse bits
+21. Minimum cost climbing stairs
