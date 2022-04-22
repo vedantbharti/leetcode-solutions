@@ -25,3 +25,4 @@ Questions to definitely check:
 21. Minimum cost climbing stairs
 22. Gas Station****
 23. candy****
+24. longest increasing subsequence
