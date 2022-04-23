@@ -1,4 +1,12 @@
 class Solution {
+    
+//greedy solution proof:
+//suppose a,b,c,d are 4 numbers such that a<b,b>c,b<d
+//prove that d-a<(b-a)+(d-c)
+//rearranging the RHS, we can write (b-a)+(d-c) = (d-a)+(b-c) > d-a
+//since b-c is greater than 0
+//Hence greedy solution works  
+    
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
