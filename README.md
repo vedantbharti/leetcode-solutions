@@ -30,3 +30,4 @@ Questions to definitely check:
 26. best time to buy and sell stock ii****
 27. best time to buy and sell stock iv****
 28. Number of closed islands
+29. Valid Sudoku** ---- check once for the logic of sub grids
