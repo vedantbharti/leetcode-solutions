@@ -31,3 +31,4 @@ Questions to definitely check:
 27. best time to buy and sell stock iv****
 28. Number of closed islands
 29. Valid Sudoku** ---- check once for the logic of sub grids
+30. Longest common subsequence****
