@@ -14,7 +14,7 @@ public:
         for(int i=1;i<=m;i++){
             for(int j=1;j<=n;j++){
                 if(word1[i-1]==word2[j-1]){
-                    v[i][j] = min({v[i][j],v[i-1][j-1],v[i-1][j]+1,v[i][j-1]+1});
+                    v[i][j] = min({v[i][j],v[i-1][j-1]});
                 } else {
                     v[i][j] = min({v[i][j],v[i-1][j-1]+1,v[i-1][j]+1,v[i][j-1]+1});
                 }
