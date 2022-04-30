@@ -9,13 +9,6 @@ class Solution{
     public:
     long long maximumAmount(int arr[], int n){
         long long dp[n][n];
-        for(int i=0;i<n;i++){
-            dp[i][i] = arr[i];
-        }
-        
-        for(int i=0;i<n-1;i++){
-            dp[i][i+1] = max(arr[i],arr[i+1]);
-        }
         
         for(int gap=0;gap<n;gap++){
             for(int i=0,j=gap;j<n;i++,j++){
