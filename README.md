@@ -34,3 +34,6 @@ Questions to definitely check:
 30. Longest common subsequence****
 31. Edit distance****
 32. Longest increasing path in a matrix****
+33. 0-1 Knapsack problem****
+34. Optimal strategy for a game****
+35. 
