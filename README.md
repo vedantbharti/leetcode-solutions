@@ -34,6 +34,5 @@ Questions to definitely check:
 30. Longest common subsequence****
 31. Edit distance****
 32. Longest increasing path in a matrix****
-33. 0-1 Knapsack problem****
+33. 0-1 Knapsack problem, Minimum sum partition, Subset sum problem**** ---- all these are similar
 34. Optimal strategy for a game****
-35. 
