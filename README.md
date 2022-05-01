@@ -36,3 +36,4 @@ Questions to definitely check:
 32. Longest increasing path in a matrix****
 33. 0-1 Knapsack problem, Minimum sum partition, Subset sum problem**** ---- all these are similar
 34. Optimal strategy for a game****
+35. Super egg drop****
