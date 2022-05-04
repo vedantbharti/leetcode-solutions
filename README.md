@@ -37,3 +37,4 @@ Questions to definitely check:
 33. 0-1 Knapsack problem, Minimum sum partition, Subset sum problem**** ---- all these are similar
 34. Optimal strategy for a game****
 35. Super egg drop****
+36. Binary tree from preorder and inorder traversal**
