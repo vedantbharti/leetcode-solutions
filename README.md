@@ -41,3 +41,4 @@ Questions to definitely check:
 37. Binary tree from inorder and postorder traversal**
 38. Group anagrams**
 39. Top k frequent elements**
+40. Longest consecutive sequence**
