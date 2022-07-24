@@ -8,17 +8,16 @@ public:
         }
         
         int ans = 0;
-        int temp = 0;
         for(int i=0;i<n;i++){
             if(uset.find(nums[i]-1)==uset.end()){
-                temp = 1;
-                int x = nums[i];
-                while(uset.find(x+1)!=uset.end()){
+                int count = 1;
+                int temp = nums[i];
+                while(uset.find(temp+1)!=uset.end()){
                     temp++;
-                    x++;
+                    count++;
                 }
                 
-                ans = max(ans,temp);
+                ans = max(ans,count);
             }
         }
         
